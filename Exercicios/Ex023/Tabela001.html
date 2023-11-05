@@ -10,12 +10,16 @@
         table{width: 400 px;
         border-collapse: collapse;}
 
-        tr.linha {background-color: gray;}
+        
 
         td{border: 1px solid black;
-        padding: 8px;}
+        padding: 8px;
+        text-align: center;/*Alinhamento horizontal*/
+        vertical-align: middle;/*alinhamento vertical*/}
+        
+        .numero{ text-align: right;}
 
-        td.dado{background-color: yellow;}
+        
     </style>
 </head>
 <body>
@@ -31,17 +35,17 @@
             <td>B1</td>
             <td>C1</td>
         </tr>
-        <tr class="linha"> <!-- segunda linha -->
+        <tr> <!-- segunda linha -->
             <td>A2</td>
             <td>B2</td>
-            <td>C3</td> 
+            <td class="numero">C3</td> 
         <tr> <!-- Terceira linha -->
             <td>A3</td>
             <td>B3</td>
-            <td>C3</td>
+            <td class="numero">C3</td>
         </tr>
         <tr><!--Quarta Linha -->
-            <td class="dado">A4</td>
+            <td>A4</td>
             <td>B4</td>
             <td>C4</td>
         </tr>
