@@ -3,9 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercicio de Tabelas</title>
+    <title>Tabelas</title>
+    <style>
+        body{font-family: Arial, Helvetica, sans-serif;}
+        table{border-collapse: collapse;}
+        caption{font-size: 1.3em;
+        font-weight: bold;
+        padding: 10px;}
+        th,td{border: 1px solid gray;}
+
+    </style>
 </head>
 <body>
+
 
     <h1>Exercício de Tabela </h1>
     <table>
@@ -17,6 +27,51 @@
             <th>Nomes</th>
             <th>Filmes</th>
         </thead>
+        <tbody>
+            <tr>
+                <th rowspan="3">Mulheres</th>
+                <td>Ana Maria Santos</td>
+                <td>Alien</td>
+                <td>Rambo</td>
+                <td>Vingadores</td>
+            </tr>
+            <tr>
+                <td>Beatriz Sousa</td>
+                <td>hulk</td>
+                <td>Inception</td>
+                <td>Batman</td>
+            </tr>
+            <tr>
+                <td>Cláudia Melo</td>
+                <td>oblivion</td>
+                <td>Matrix</td>
+                <td>Big Hero</td>
+
+            </tr>
+            <tr>
+                <tr>
+                    <th rowspan="3">Homens</th>
+                    <td>Bruno Mendoça</td>
+                    <td>Intoáveis</td>
+                    <td>Amenesia</td>
+                    <td>Gladiador</td>
+                </tr>
+            </tr>
+            <tr>
+                <td>Daniel lourenço</td>
+                <td>wall-E</td>
+                <td>Oldboy</td>
+                <td>Dangal</td>
+            </tr>
+            <tr>
+                <td>Fabiano Mota</td>
+                <td>Star Wars V</td>
+                <td>taxi Drive</td>
+                <td>toy tory</td>
+            </tr>
+
+            
+        </tbody>
     </table>
 </body>
 </html>
