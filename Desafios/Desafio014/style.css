@@ -12,7 +12,8 @@ text-align: center;}
 
 thead{background-color: gray;
 color: white;}
-tfoot{background-color: gray;
+#media{background-color: gray;
 color: white;}
 
-div:class >th{background-color: gray;}
+#extras{background-color: gray;
+color:white}
