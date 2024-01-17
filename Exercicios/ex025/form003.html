@@ -10,7 +10,10 @@
     <form action="cadastro.php" method="get"></form>
     <p>
         <label for="inome">Nome</label>
-        <input type="text" name="nome" id="inome" required>
+        <input type="text" name="nome" id="inome" required maxlength="30"
+        placeholder="Nome completo" autocomplete="name">
     </p>
+    <p><input type="submit" value="enviar">
+    <input type="reset" value="Limpar"></p>
 </body>
 </html>
